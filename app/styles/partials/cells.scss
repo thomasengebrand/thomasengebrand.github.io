@@ -1,0 +1,51 @@
+ul.cells {
+	list-style-type: none;
+}
+
+ul.cells li {
+	border-radius: 8px;
+	box-shadow: 0px 6px 8px #ccc;
+	float: left;
+	height: 32em;
+	margin: 0 2em 2em 0;
+	width: 18em;
+}
+
+ul.cells li h2 {
+	margin-bottom: 1em;
+}
+
+ul.cells li a {
+
+}
+
+ul.cells li a img.cell-image {
+	background-color: #eee;
+	border-radius: 8px 8px 0px 0px;
+	display: block;
+	height: 15em;
+	width: 18em;
+}
+
+ul.cells li a img.cell-icon {
+	background-color: orange;
+	border-radius: 4em;
+	display: block;
+	height: 4em;
+	margin: 0 auto;
+	position: relative;
+	top: -2em;
+	width: 4em;
+}
+
+ul.cells li div.cell-text {
+	border-radius: 0px 0px 8px 8px;
+	display: block;
+	height: 15em;
+	padding: 2em;
+	position: relative;
+	text-align: center;
+	top: -3em;
+	width: 18em;
+}
+
